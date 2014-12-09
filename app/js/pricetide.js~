@@ -1,0 +1,5 @@
+var fire = new Firebase("https://pricetide.firebaseio.com/");
+
+fire.child('vendors').on('value', function(snapshot){
+  //alert(snapshot.child('alpha/discount').val());
+});
